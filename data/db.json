@@ -1,502 +1,504 @@
-[
-  {
-    "id": 1,
-    "name": "Легкая куртка",
-    "colors": [
-      {
-        "name": "Синий",
-        "code": "#1E90FF"
-      },
-      {
-        "name": "Черный",
-        "code": "#000000"
+{
+  "catalog": [
+    {
+      "id": 1,
+      "name": "Легкая куртка",
+      "colors": [
+        {
+          "name": "Синий",
+          "code": "#1E90FF"
+        },
+        {
+          "name": "Черный",
+          "code": "#000000"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "categories": [
+        "Верхняя одежда"
+      ],
+      "price": 4500.00,
+      "discountedPrice": 3999.00,
+      "description": "Легкая куртка для демисезонного использования. Идеальна для весенних и осенних дней.",
+      "images": [
+        {
+          "colorName": "Синий",
+          "colorCode": "#1E90FF",
+          "images": [
+            "https://example.com/images/jacket_blue_1.jpg",
+            "https://example.com/images/jacket_blue_2.jpg"
+          ]
+        },
+        {
+          "colorName": "Черный",
+          "colorCode": "#000000",
+          "images": [
+            "https://example.com/images/jacket_black_1.jpg",
+            "https://example.com/images/jacket_black_2.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Повседневный",
+        "Тип": "Куртка"
       }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "categories": [
-      "Верхняя одежда"
-    ],
-    "price": 4500.00,
-    "discountedPrice": 3999.00,
-    "description": "Легкая куртка для демисезонного использования. Идеальна для весенних и осенних дней.",
-    "images": [
-      {
-        "colorName": "Синий",
-        "colorCode": "#1E90FF",
-        "images": [
-          "https://example.com/images/jacket_blue_1.jpg",
-          "https://example.com/images/jacket_blue_2.jpg"
-        ]
-      },
-      {
-        "colorName": "Черный",
-        "colorCode": "#000000",
-        "images": [
-          "https://example.com/images/jacket_black_1.jpg",
-          "https://example.com/images/jacket_black_2.jpg"
-        ]
+    },
+    {
+      "id": 2,
+      "name": "Пальто оверсайз",
+      "colors": [
+        {
+          "name": "Бежевый",
+          "code": "#F5DEB3"
+        },
+        {
+          "name": "Темно-серый",
+          "code": "#A9A9A9"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "categories": [
+        "Верхняя одежда"
+      ],
+      "price": 6500.00,
+      "discountedPrice": null,
+      "description": "Стильное пальто оверсайз для холодных дней. Отлично сочетается с любым стилем.",
+      "images": [
+        {
+          "colorName": "Бежевый",
+          "colorCode": "#F5DEB3",
+          "images": [
+            "https://example.com/images/coat_beige_1.jpg",
+            "https://example.com/images/coat_beige_2.jpg"
+          ]
+        },
+        {
+          "colorName": "Темно-серый",
+          "colorCode": "#A9A9A9",
+          "images": [
+            "https://example.com/images/coat_gray_1.jpg",
+            "https://example.com/images/coat_gray_2.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Классический",
+        "Тип": "Пальто"
       }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Повседневный",
-      "Тип": "Куртка"
+    },
+    {
+      "id": 3,
+      "name": "Дождевик с капюшоном",
+      "colors": [
+        {
+          "name": "Желтый",
+          "code": "#FFD700"
+        },
+        {
+          "name": "Зеленый",
+          "code": "#32CD32"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "categories": [
+        "Верхняя одежда"
+      ],
+      "price": 3200.00,
+      "discountedPrice": 2800.00,
+      "description": "Практичный дождевик с капюшоном для дождливой погоды.",
+      "images": [
+        {
+          "colorName": "Желтый",
+          "colorCode": "#FFD700",
+          "images": [
+            "https://example.com/images/raincoat_yellow_1.jpg"
+          ]
+        },
+        {
+          "colorName": "Зеленый",
+          "colorCode": "#32CD32",
+          "images": [
+            "https://example.com/images/raincoat_green_1.jpg",
+            "https://example.com/images/raincoat_green_2.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Спортивный",
+        "Тип": "Дождевик"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ветровка спортивная",
+      "colors": [
+        {
+          "name": "Красный",
+          "code": "#FF4500"
+        },
+        {
+          "name": "Черный",
+          "code": "#000000"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "categories": [
+        "Верхняя одежда",
+        "Спортивная одежда"
+      ],
+      "price": 2900.00,
+      "discountedPrice": 2500.00,
+      "description": "Легкая ветровка для активного отдыха и спорта.",
+      "images": [
+        {
+          "colorName": "Красный",
+          "colorCode": "#FF4500",
+          "images": [
+            "https://example.com/images/jacket_red_1.jpg",
+            "https://example.com/images/jacket_red_2.jpg"
+          ]
+        },
+        {
+          "colorName": "Черный",
+          "colorCode": "#000000",
+          "images": [
+            "https://example.com/images/jacket_black_1.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Спортивный",
+        "Тип": "Ветровка"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Толстовка с капюшоном",
+      "colors": [
+        {
+          "name": "Серый",
+          "code": "#808080"
+        },
+        {
+          "name": "Синий",
+          "code": "#1E90FF"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "categories": [
+        "Верхняя одежда",
+        "Повседневная одежда"
+      ],
+      "price": 2100.00,
+      "discountedPrice": 1900.00,
+      "description": "Комфортная толстовка для повседневного использования, выполненная из качественного материала.",
+      "images": [
+        {
+          "colorName": "Серый",
+          "colorCode": "#808080",
+          "images": [
+            "https://example.com/images/hoodie_gray_1.jpg"
+          ]
+        },
+        {
+          "colorName": "Синий",
+          "colorCode": "#1E90FF",
+          "images": [
+            "https://example.com/images/hoodie_blue_1.jpg",
+            "https://example.com/images/hoodie_blue_2.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Повседневный",
+        "Тип": "Толстовка"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Классические джинсы",
+      "colors": [
+        {
+          "name": "Синий",
+          "code": "#0000FF"
+        },
+        {
+          "name": "Темно-синий",
+          "code": "#00008B"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "categories": [
+        "Нижняя одежда"
+      ],
+      "price": 3200.00,
+      "discountedPrice": 3000.00,
+      "description": "Классические джинсы с прямым кроем, удобные и стильные.",
+      "images": [
+        {
+          "colorName": "Синий",
+          "colorCode": "#0000FF",
+          "images": [
+            "https://example.com/images/jeans_blue_1.jpg",
+            "https://example.com/images/jeans_blue_2.jpg"
+          ]
+        },
+        {
+          "colorName": "Темно-синий",
+          "colorCode": "#00008B",
+          "images": [
+            "https://example.com/images/jeans_darkblue_1.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Джинсовая ткань",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Повседневный",
+        "Тип": "Джинсы"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Леггинсы спортивные",
+      "colors": [
+        {
+          "name": "Черный",
+          "code": "#000000"
+        },
+        {
+          "name": "Серый",
+          "code": "#808080"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "categories": [
+        "Нижняя одежда",
+        "Спортивная одежда"
+      ],
+      "price": 1800.00,
+      "discountedPrice": null,
+      "description": "Удобные леггинсы для занятий спортом и повседневного образа.",
+      "images": [
+        {
+          "colorName": "Черный",
+          "colorCode": "#000000",
+          "images": [
+            "https://example.com/images/leggings_black_1.jpg"
+          ]
+        },
+        {
+          "colorName": "Серый",
+          "colorCode": "#808080",
+          "images": [
+            "https://example.com/images/leggings_gray_1.jpg",
+            "https://example.com/images/leggings_gray_2.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Эластан",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Спортивный",
+        "Тип": "Леггинсы"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Легкие шорты",
+      "colors": [
+        {
+          "name": "Бежевый",
+          "code": "#F5DEB3"
+        },
+        {
+          "name": "Оливковый",
+          "code": "#808000"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "categories": [
+        "Нижняя одежда"
+      ],
+      "price": 1500.00,
+      "discountedPrice": 1300.00,
+      "description": "Легкие и удобные шорты для теплой погоды и активного отдыха.",
+      "images": [
+        {
+          "colorName": "Бежевый",
+          "colorCode": "#F5DEB3",
+          "images": [
+            "https://example.com/images/shorts_beige_1.jpg"
+          ]
+        },
+        {
+          "colorName": "Оливковый",
+          "colorCode": "#808000",
+          "images": [
+            "https://example.com/images/shorts_olive_1.jpg",
+            "https://example.com/images/shorts_olive_2.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Лето",
+        "Материал": "Хлопок",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Повседневный",
+        "Тип": "Шорты"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Элегантная юбка",
+      "colors": [
+        {
+          "name": "Черный",
+          "code": "#000000"
+        },
+        {
+          "name": "Красный",
+          "code": "#FF0000"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "categories": [
+        "Нижняя одежда"
+      ],
+      "price": 2800.00,
+      "discountedPrice": 2600.00,
+      "description": "Элегантная юбка для создания стильного образа в офисе и на вечерних мероприятиях.",
+      "images": [
+        {
+          "colorName": "Черный",
+          "colorCode": "#000000",
+          "images": [
+            "https://example.com/images/skirt_black_1.jpg",
+            "https://example.com/images/skirt_black_2.jpg"
+          ]
+        },
+        {
+          "colorName": "Красный",
+          "colorCode": "#FF0000",
+          "images": [
+            "https://example.com/images/skirt_red_1.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Элегантный",
+        "Тип": "Юбка"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Классические брюки",
+      "colors": [
+        {
+          "name": "Темно-серый",
+          "code": "#A9A9A9"
+        },
+        {
+          "name": "Черный",
+          "code": "#000000"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "categories": [
+        "Нижняя одежда"
+      ],
+      "price": 3500.00,
+      "discountedPrice": null,
+      "description": "Классические брюки с прямым кроем для делового и повседневного стиля.",
+      "images": [
+        {
+          "colorName": "Темно-серый",
+          "colorCode": "#A9A9A9",
+          "images": [
+            "https://example.com/images/trousers_gray_1.jpg",
+            "https://example.com/images/trousers_gray_2.jpg"
+          ]
+        },
+        {
+          "colorName": "Черный",
+          "colorCode": "#000000",
+          "images": [
+            "https://example.com/images/trousers_black_1.jpg"
+          ]
+        }
+      ],
+      "characteristics": {
+        "Сезон": "Демисезон",
+        "Материал": "Полиэфир",
+        "Коллекция": "Базовая коллекция",
+        "Стиль": "Классический",
+        "Тип": "Брюки"
+      }
     }
-  },
-  {
-    "id": 2,
-    "name": "Пальто оверсайз",
-    "colors": [
-      {
-        "name": "Бежевый",
-        "code": "#F5DEB3"
-      },
-      {
-        "name": "Темно-серый",
-        "code": "#A9A9A9"
-      }
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "categories": [
-      "Верхняя одежда"
-    ],
-    "price": 6500.00,
-    "discountedPrice": null,
-    "description": "Стильное пальто оверсайз для холодных дней. Отлично сочетается с любым стилем.",
-    "images": [
-      {
-        "colorName": "Бежевый",
-        "colorCode": "#F5DEB3",
-        "images": [
-          "https://example.com/images/coat_beige_1.jpg",
-          "https://example.com/images/coat_beige_2.jpg"
-        ]
-      },
-      {
-        "colorName": "Темно-серый",
-        "colorCode": "#A9A9A9",
-        "images": [
-          "https://example.com/images/coat_gray_1.jpg",
-          "https://example.com/images/coat_gray_2.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Классический",
-      "Тип": "Пальто"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Дождевик с капюшоном",
-    "colors": [
-      {
-        "name": "Желтый",
-        "code": "#FFD700"
-      },
-      {
-        "name": "Зеленый",
-        "code": "#32CD32"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "categories": [
-      "Верхняя одежда"
-    ],
-    "price": 3200.00,
-    "discountedPrice": 2800.00,
-    "description": "Практичный дождевик с капюшоном для дождливой погоды.",
-    "images": [
-      {
-        "colorName": "Желтый",
-        "colorCode": "#FFD700",
-        "images": [
-          "https://example.com/images/raincoat_yellow_1.jpg"
-        ]
-      },
-      {
-        "colorName": "Зеленый",
-        "colorCode": "#32CD32",
-        "images": [
-          "https://example.com/images/raincoat_green_1.jpg",
-          "https://example.com/images/raincoat_green_2.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Спортивный",
-      "Тип": "Дождевик"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Ветровка спортивная",
-    "colors": [
-      {
-        "name": "Красный",
-        "code": "#FF4500"
-      },
-      {
-        "name": "Черный",
-        "code": "#000000"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "categories": [
-      "Верхняя одежда",
-      "Спортивная одежда"
-    ],
-    "price": 2900.00,
-    "discountedPrice": 2500.00,
-    "description": "Легкая ветровка для активного отдыха и спорта.",
-    "images": [
-      {
-        "colorName": "Красный",
-        "colorCode": "#FF4500",
-        "images": [
-          "https://example.com/images/jacket_red_1.jpg",
-          "https://example.com/images/jacket_red_2.jpg"
-        ]
-      },
-      {
-        "colorName": "Черный",
-        "colorCode": "#000000",
-        "images": [
-          "https://example.com/images/jacket_black_1.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Спортивный",
-      "Тип": "Ветровка"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Толстовка с капюшоном",
-    "colors": [
-      {
-        "name": "Серый",
-        "code": "#808080"
-      },
-      {
-        "name": "Синий",
-        "code": "#1E90FF"
-      }
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "categories": [
-      "Верхняя одежда",
-      "Повседневная одежда"
-    ],
-    "price": 2100.00,
-    "discountedPrice": 1900.00,
-    "description": "Комфортная толстовка для повседневного использования, выполненная из качественного материала.",
-    "images": [
-      {
-        "colorName": "Серый",
-        "colorCode": "#808080",
-        "images": [
-          "https://example.com/images/hoodie_gray_1.jpg"
-        ]
-      },
-      {
-        "colorName": "Синий",
-        "colorCode": "#1E90FF",
-        "images": [
-          "https://example.com/images/hoodie_blue_1.jpg",
-          "https://example.com/images/hoodie_blue_2.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Повседневный",
-      "Тип": "Толстовка"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Классические джинсы",
-    "colors": [
-      {
-        "name": "Синий",
-        "code": "#0000FF"
-      },
-      {
-        "name": "Темно-синий",
-        "code": "#00008B"
-      }
-    ],
-    "sizes": [
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
-    ],
-    "categories": [
-      "Нижняя одежда"
-    ],
-    "price": 3200.00,
-    "discountedPrice": 3000.00,
-    "description": "Классические джинсы с прямым кроем, удобные и стильные.",
-    "images": [
-      {
-        "colorName": "Синий",
-        "colorCode": "#0000FF",
-        "images": [
-          "https://example.com/images/jeans_blue_1.jpg",
-          "https://example.com/images/jeans_blue_2.jpg"
-        ]
-      },
-      {
-        "colorName": "Темно-синий",
-        "colorCode": "#00008B",
-        "images": [
-          "https://example.com/images/jeans_darkblue_1.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Джинсовая ткань",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Повседневный",
-      "Тип": "Джинсы"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Леггинсы спортивные",
-    "colors": [
-      {
-        "name": "Черный",
-        "code": "#000000"
-      },
-      {
-        "name": "Серый",
-        "code": "#808080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "categories": [
-      "Нижняя одежда",
-      "Спортивная одежда"
-    ],
-    "price": 1800.00,
-    "discountedPrice": null,
-    "description": "Удобные леггинсы для занятий спортом и повседневного образа.",
-    "images": [
-      {
-        "colorName": "Черный",
-        "colorCode": "#000000",
-        "images": [
-          "https://example.com/images/leggings_black_1.jpg"
-        ]
-      },
-      {
-        "colorName": "Серый",
-        "colorCode": "#808080",
-        "images": [
-          "https://example.com/images/leggings_gray_1.jpg",
-          "https://example.com/images/leggings_gray_2.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Эластан",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Спортивный",
-      "Тип": "Леггинсы"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Легкие шорты",
-    "colors": [
-      {
-        "name": "Бежевый",
-        "code": "#F5DEB3"
-      },
-      {
-        "name": "Оливковый",
-        "code": "#808000"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "categories": [
-      "Нижняя одежда"
-    ],
-    "price": 1500.00,
-    "discountedPrice": 1300.00,
-    "description": "Легкие и удобные шорты для теплой погоды и активного отдыха.",
-    "images": [
-      {
-        "colorName": "Бежевый",
-        "colorCode": "#F5DEB3",
-        "images": [
-          "https://example.com/images/shorts_beige_1.jpg"
-        ]
-      },
-      {
-        "colorName": "Оливковый",
-        "colorCode": "#808000",
-        "images": [
-          "https://example.com/images/shorts_olive_1.jpg",
-          "https://example.com/images/shorts_olive_2.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Лето",
-      "Материал": "Хлопок",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Повседневный",
-      "Тип": "Шорты"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Элегантная юбка",
-    "colors": [
-      {
-        "name": "Черный",
-        "code": "#000000"
-      },
-      {
-        "name": "Красный",
-        "code": "#FF0000"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "categories": [
-      "Нижняя одежда"
-    ],
-    "price": 2800.00,
-    "discountedPrice": 2600.00,
-    "description": "Элегантная юбка для создания стильного образа в офисе и на вечерних мероприятиях.",
-    "images": [
-      {
-        "colorName": "Черный",
-        "colorCode": "#000000",
-        "images": [
-          "https://example.com/images/skirt_black_1.jpg",
-          "https://example.com/images/skirt_black_2.jpg"
-        ]
-      },
-      {
-        "colorName": "Красный",
-        "colorCode": "#FF0000",
-        "images": [
-          "https://example.com/images/skirt_red_1.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Элегантный",
-      "Тип": "Юбка"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Классические брюки",
-    "colors": [
-      {
-        "name": "Темно-серый",
-        "code": "#A9A9A9"
-      },
-      {
-        "name": "Черный",
-        "code": "#000000"
-      }
-    ],
-    "sizes": [
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "categories": [
-      "Нижняя одежда"
-    ],
-    "price": 3500.00,
-    "discountedPrice": null,
-    "description": "Классические брюки с прямым кроем для делового и повседневного стиля.",
-    "images": [
-      {
-        "colorName": "Темно-серый",
-        "colorCode": "#A9A9A9",
-        "images": [
-          "https://example.com/images/trousers_gray_1.jpg",
-          "https://example.com/images/trousers_gray_2.jpg"
-        ]
-      },
-      {
-        "colorName": "Черный",
-        "colorCode": "#000000",
-        "images": [
-          "https://example.com/images/trousers_black_1.jpg"
-        ]
-      }
-    ],
-    "characteristics": {
-      "Сезон": "Демисезон",
-      "Материал": "Полиэфир",
-      "Коллекция": "Базовая коллекция",
-      "Стиль": "Классический",
-      "Тип": "Брюки"
-    }
-  }
-]
+  ]
+}

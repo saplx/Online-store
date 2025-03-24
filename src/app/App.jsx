@@ -1,13 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "../pages/Homepage";
-import NotFound from "../pages/NotFound";
 import "./index.scss";
 
+import Homepage from "../pages/Homepage";
+import ProductPage from "../pages/ProductPage";
+import NotFound from "../pages/NotFound";
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
