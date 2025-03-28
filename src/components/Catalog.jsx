@@ -21,13 +21,15 @@ const Catalog = () => {
             <div className="catalog__item">
               <img
                 className="catalog__item-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
+                src={item.mainImage}
                 alt={item.name}
               />
               <div className="catalog__item-prices">
                 {item.discountedPrice ? (
                   <>
-                    <div className="catalog__item-price">{item.price} ₽</div>
+                    <div className="catalog__item-price">
+                      {item.discountedPrice} ₽
+                    </div>
                     <div className="catalog__item-price--old">
                       {item.price} ₽
                     </div>
@@ -41,7 +43,7 @@ const Catalog = () => {
           </Link>
         ))}
       {isLoading && "Загрузка"}
-      {error && <div>{error}</div>}
+      {error && <div>Ошибка загрузки данных {error}</div>}
     </section>
   );
 };

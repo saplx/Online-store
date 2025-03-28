@@ -14,7 +14,7 @@ const useFetch = (url) => {
     fetch(url, { signal: controller.signal })
       .then((res) => {
         if (!res.ok) {
-          throw new Error(`Ошибка: ${res.status}`);
+          throw new Error(`${res.status}`);
         }
         return res.json();
       })

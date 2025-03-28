@@ -1,6 +1,6 @@
 import "./Header.scss";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <header className="header">
       <div className="header__container">
@@ -66,4 +66,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

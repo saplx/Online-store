@@ -25,21 +25,22 @@
       "price": 4500.00,
       "discountedPrice": 3999.00,
       "description": "Легкая куртка для демисезонного использования. Идеальна для весенних и осенних дней.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Синий",
           "colorCode": "#1E90FF",
           "images": [
-            "https://example.com/images/jacket_blue_1.jpg",
-            "https://example.com/images/jacket_blue_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Черный",
           "colorCode": "#000000",
           "images": [
-            "https://example.com/images/jacket_black_1.jpg",
-            "https://example.com/images/jacket_black_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -75,21 +76,22 @@
       "price": 6500.00,
       "discountedPrice": null,
       "description": "Стильное пальто оверсайз для холодных дней. Отлично сочетается с любым стилем.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Бежевый",
           "colorCode": "#F5DEB3",
           "images": [
-            "https://example.com/images/coat_beige_1.jpg",
-            "https://example.com/images/coat_beige_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Темно-серый",
           "colorCode": "#A9A9A9",
           "images": [
-            "https://example.com/images/coat_gray_1.jpg",
-            "https://example.com/images/coat_gray_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -125,20 +127,21 @@
       "price": 3200.00,
       "discountedPrice": 2800.00,
       "description": "Практичный дождевик с капюшоном для дождливой погоды.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Желтый",
           "colorCode": "#FFD700",
           "images": [
-            "https://example.com/images/raincoat_yellow_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Зеленый",
           "colorCode": "#32CD32",
           "images": [
-            "https://example.com/images/raincoat_green_1.jpg",
-            "https://example.com/images/raincoat_green_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -176,20 +179,21 @@
       "price": 2900.00,
       "discountedPrice": 2500.00,
       "description": "Легкая ветровка для активного отдыха и спорта.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Красный",
           "colorCode": "#FF4500",
           "images": [
-            "https://example.com/images/jacket_red_1.jpg",
-            "https://example.com/images/jacket_red_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Черный",
           "colorCode": "#000000",
           "images": [
-            "https://example.com/images/jacket_black_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -226,20 +230,21 @@
       "price": 2100.00,
       "discountedPrice": 1900.00,
       "description": "Комфортная толстовка для повседневного использования, выполненная из качественного материала.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Серый",
           "colorCode": "#808080",
           "images": [
-            "https://example.com/images/hoodie_gray_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Синий",
           "colorCode": "#1E90FF",
           "images": [
-            "https://example.com/images/hoodie_blue_1.jpg",
-            "https://example.com/images/hoodie_blue_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -277,20 +282,21 @@
       "price": 3200.00,
       "discountedPrice": 3000.00,
       "description": "Классические джинсы с прямым кроем, удобные и стильные.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Синий",
           "colorCode": "#0000FF",
           "images": [
-            "https://example.com/images/jeans_blue_1.jpg",
-            "https://example.com/images/jeans_blue_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Темно-синий",
           "colorCode": "#00008B",
           "images": [
-            "https://example.com/images/jeans_darkblue_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -327,20 +333,21 @@
       "price": 1800.00,
       "discountedPrice": null,
       "description": "Удобные леггинсы для занятий спортом и повседневного образа.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Черный",
           "colorCode": "#000000",
           "images": [
-            "https://example.com/images/leggings_black_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Серый",
           "colorCode": "#808080",
           "images": [
-            "https://example.com/images/leggings_gray_1.jpg",
-            "https://example.com/images/leggings_gray_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -376,20 +383,21 @@
       "price": 1500.00,
       "discountedPrice": 1300.00,
       "description": "Легкие и удобные шорты для теплой погоды и активного отдыха.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Бежевый",
           "colorCode": "#F5DEB3",
           "images": [
-            "https://example.com/images/shorts_beige_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Оливковый",
           "colorCode": "#808000",
           "images": [
-            "https://example.com/images/shorts_olive_1.jpg",
-            "https://example.com/images/shorts_olive_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -425,20 +433,21 @@
       "price": 2800.00,
       "discountedPrice": 2600.00,
       "description": "Элегантная юбка для создания стильного образа в офисе и на вечерних мероприятиях.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Черный",
           "colorCode": "#000000",
           "images": [
-            "https://example.com/images/skirt_black_1.jpg",
-            "https://example.com/images/skirt_black_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Красный",
           "colorCode": "#FF0000",
           "images": [
-            "https://example.com/images/skirt_red_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],
@@ -475,20 +484,21 @@
       "price": 3500.00,
       "discountedPrice": null,
       "description": "Классические брюки с прямым кроем для делового и повседневного стиля.",
-      "images": [
+      "mainImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+      "variants": [
         {
           "colorName": "Темно-серый",
           "colorCode": "#A9A9A9",
           "images": [
-            "https://example.com/images/trousers_gray_1.jpg",
-            "https://example.com/images/trousers_gray_2.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         },
         {
           "colorName": "Черный",
           "colorCode": "#000000",
           "images": [
-            "https://example.com/images/trousers_black_1.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDOLFmcL71ZNRHtjZXINatMCEXbLDEvfGLA&s"
           ]
         }
       ],

@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.scss";
 
-import Homepage from "../pages/Homepage";
-import ProductPage from "../pages/ProductPage";
+import Home from "../pages/Home";
+import Product from "../pages/Product";
 import NotFound from "../pages/NotFound";
+
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/product/:id" element={<ProductPage />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/product/:id" element={<Product />} />
       </Routes>
     </Router>
   );
