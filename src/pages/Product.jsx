@@ -1,7 +1,11 @@
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import useFetch from "../components/useFetch";
+import useFetch from "../hooks/useFetch";
 import Header from "../components/Header";
 import ImageSlider from "../components/ImageSlider";
+
+import { useDispatch } from "react-redux";
+import { addProductToCart } from "../components/redux/cartSlice";
 
 import "./Product.scss";
 
@@ -13,29 +17,47 @@ const Product = () => {
     error,
   } = useFetch(`http://localhost:8000/catalog/${id}`);
 
-  console.log(product, isLoading, error);
+  const dispatch = useDispatch();
+
+  const [selectedSize, setSelectedSize] = useState(null);
+
+  useEffect(() => {
+    if (product && product.sizes && product.sizes.length > 0 && !selectedSize) {
+      setSelectedSize(product.sizes[0]);
+    }
+  }, [product, selectedSize]);
+
+  const handleAddToCart = () => {
+    dispatch(addProductToCart(...product, selectedSize));
+  };
 
   return (
     <>
-      <Header />
       <section className="product">
         {isLoading && <p className="product__loading">Загрузка...</p>}
         {error && <div className="product__error">Ошибка: {error.message}</div>}
         {product && (
           <div className="product__content">
             <div className="product__slider">
-              <ImageSlider images={product.variants[0].images} />
+              <ImageSlider images={product?.variants?.[0]?.images || []} />
             </div>
             <div className="product__info">
               <h1 className="product__name">{product.name}</h1>
               <p className="product__description">{product.description}</p>
-              <select className="product__colors" name="colors" id="colors">
-                {product.colors.map((color, index) => (
-                  <option key={index} value={color.name}>
-                    {color.name}
-                  </option>
+              <div className="product__sizes">
+                {product.sizes.map((size, index) => (
+                  <button
+                    key={index}
+                    type="button"
+                    className={`product__sizes-button ${
+                      selectedSize === size ? "active" : ""
+                    }`}
+                    onClick={() => setSelectedSize(size)}
+                  >
+                    {size}
+                  </button>
                 ))}
-              </select>
+              </div>
             </div>
             <div className="product__purchase">
               {product.discountedPrice ? (
@@ -48,20 +70,6 @@ const Product = () => {
                       {product.price} ₽
                     </span>
                   </div>
-                  <div className="product__actions">
-                    <button
-                      className="product__button product__button--cart"
-                      type="button"
-                    >
-                      Добавить в корзину
-                    </button>
-                    <button
-                      className="product__button product__button--favorite"
-                      type="button"
-                    >
-                      Добавить избранное
-                    </button>
-                  </div>
                 </>
               ) : (
                 <div className="product__price">
@@ -70,6 +78,18 @@ const Product = () => {
                   </span>
                 </div>
               )}
+              <div className="product__actions">
+                <button
+                  onClick={handleAddToCart}
+                  className="product__button--cart"
+                  type="button"
+                >
+                  Добавить в корзину
+                </button>
+                <button className="product__button--favorite" type="button">
+                  Добавить избранное
+                </button>
+              </div>
             </div>
           </div>
         )}

@@ -1,6 +1,7 @@
 .catalog {
 
   display: flex;
+  justify-content: space-between;
   max-width: 1400px;
   margin: 0 auto;
   gap: 20px;
@@ -8,7 +9,7 @@
   flex-wrap: wrap;
 
   &__item-link {
-    transition: all 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 
     &:hover {
       transform: scale(1.05);

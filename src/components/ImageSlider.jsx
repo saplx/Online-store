@@ -26,8 +26,8 @@ const PrevArrow = ({ onClick }) => (
 function ImageSlider({ images }) {
   const settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
+    infinite: false,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,

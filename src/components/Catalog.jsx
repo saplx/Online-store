@@ -1,4 +1,4 @@
-import useFetch from "./useFetch";
+import useFetch from "../hooks/useFetch";
 import "./Catalog.scss";
 import { Link } from "react-router";
 
@@ -42,7 +42,7 @@ const Catalog = () => {
             </div>
           </Link>
         ))}
-      {isLoading && "Загрузка"}
+      {isLoading && <div>Загрузка...</div>}
       {error && <div>Ошибка загрузки данных {error}</div>}
     </section>
   );
