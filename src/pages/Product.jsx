@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
-import Header from "../components/Header";
 import ImageSlider from "../components/ImageSlider";
 
 import { useDispatch } from "react-redux";
@@ -28,7 +27,12 @@ const Product = () => {
   }, [product, selectedSize]);
 
   const handleAddToCart = () => {
-    dispatch(addProductToCart(...product, selectedSize));
+    dispatch(
+      addProductToCart({
+        id: product.id,
+        size: selectedSize,
+      })
+    );
   };
 
   return (

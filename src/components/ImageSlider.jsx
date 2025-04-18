@@ -57,6 +57,7 @@ function ImageSlider({ images }) {
               src={image}
               alt={`Слайд ${index}`}
               className="image-slider__img"
+              loading="lazy"
             />
           </div>
         ))}
